@@ -1,13 +1,9 @@
 
 FROM node:14
 
-
-WORKDIR /app
-
-
 RUN git clone https://github.com/JALomeli/DockerTareaUach
 
-WORKDIR /app/TareaDocker
+WORKDIR /app
 
 RUN npm install
 
